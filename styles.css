@@ -8,10 +8,11 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  height: 100vh;
+  height: 100%;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+font-size:1.6 em;
 }
 
 body span {
