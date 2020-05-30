@@ -1,4 +1,6 @@
 {
-  "name": "BareBrains",
-  "main": "index.html"
+  "name": "barebrains-website",
+  "main": "index.html",
+  "keywords": [],
+  "description": ""
 }

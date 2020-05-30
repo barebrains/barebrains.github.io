@@ -36,7 +36,7 @@ p {
   transform: scale(0.95);
 }
 
-img {
+#main img {
   height: 20vh;
   filter: invert(100%);
   animation: rot 6s infinite linear;
@@ -54,5 +54,35 @@ img {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+#header {
+  position: fixed;
+  width: calc(100% - 40px);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 400;
+  background-color: black;
+}
+
+#header img {
+  filter: invert(100%);
+  height: 35px;
+  margin-right: 15px;
+}
+
+iframe {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 720px) {
+  #header {
+    justify-content: center;
   }
 }
