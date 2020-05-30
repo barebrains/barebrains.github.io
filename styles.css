@@ -1,18 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 
 body {
-  overflow:hidden;
-  padding: 30px;
+  margin: 0px;
+  padding: 25px;
+  background-color: black;
+}
+#main {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
-  height: 100vh;
+  height: calc(100% - 50px);
+  position: fixed;
+  width: calc(100% - 50px);
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-font-size: 1.6em;
+  font-size: 1.6em;
+}
+
+p {
+  text-align: center;
 }
 #button {
   cursor: pointer;
